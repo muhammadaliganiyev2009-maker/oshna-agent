@@ -135,7 +135,7 @@ object WebSearch {
 
 object Agent {
 
-    private const val MODEL = "llama-3.3-70b-versatile"
+    private const val MODEL = "openai/gpt-oss-120b"
     private const val MAX_STEPS = 15
 
     private val client = OkHttpClient.Builder().readTimeout(60, TimeUnit.SECONDS).build()
